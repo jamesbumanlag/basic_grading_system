@@ -295,7 +295,7 @@ function displayFinalGrade(subject,quarter,term){
 
     let QuarterSubject = document.getElementById(`${term}Quarter${capitalizeFirstLetter(subject)}`) || 0;
 
-    finalGrade = localStorage.getItem(`${subject}Grade${quarter}`);
+    let finalGrade = localStorage.getItem(`${subject}Grade${quarter}`);
 
     QuarterSubject.textContent = finalGrade;   
 
@@ -341,21 +341,21 @@ function quarterRemarks(grade, subject){
     let remarks = document.getElementById(`remarks${capitalizeFirstLetter(subject)}`)|| 0;
     
     if (remarks){
-        if  (grade){
-            remarks.style.color = 'black';
-            remarks.textContent = '--';
         
-        } 
-        else if (grade >= 75){
+        if (grade >= 75){
             remarks.style.color = "green";
             remarks.textContent = 'Passed';
         
 
-        }else/*grade <= 65)*/ {
+        }else if(grade <75 && grade >=65) {
             remarks.style.color = "red";
             remarks.textContent = 'Failed';
             
-        }
+        }else{
+            remarks.style.color = 'black';
+            remarks.textContent = '--';
+        
+        } 
        
     }
     else{
