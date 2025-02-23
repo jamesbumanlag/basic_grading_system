@@ -1,0 +1,351 @@
+
+// function math(event){
+   
+//     event.preventDefault(); // prevents the form submission and page reload
+      
+    
+//     let quiz = parseFloat(document.getElementById('quizzes').valueAsNumber);
+//     let assign = parseFloat(document.getElementById('assignment').valueAsNumber);
+//     let recite = parseFloat(document.getElementById('recitation').valueAsNumber);
+//     let proj = parseFloat(document.getElementById('project').valueAsNumber);
+//     let attend = parseFloat(document.getElementById('attendance').valueAsNumber);
+//     let exam = parseFloat(document.getElementById('examination').valueAsNumber)
+    
+
+
+//     if (!quiz && !assign && !recite && !proj && !proj && !exam){
+//         alert("Enter Grade")
+//     } 
+//     else{
+        
+//         if (!isNaN(quiz)) {
+//             let mathQuizText = document.getElementById('mathQuiz');
+//             mathQuizText.textContent = quiz;
+        
+            
+//         }else{
+//             alert('Quiz: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(assign)) {
+//             let mathAssignText = document.getElementById('mathAssign');
+//             mathAssignText.textContent = assign;
+        
+            
+//         }else{
+//             alert('Assignment: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(recite)) {
+//             let mathReciteText = document.getElementById('mathRecite');
+//             mathReciteText.textContent = recite;
+        
+            
+//         }else{
+//             alert('Recitation: Enter Number only')
+//         }
+        
+//         if (!isNaN(proj)) {
+//             let mathProjText = document.getElementById('mathProj');
+//             mathProjText.textContent = proj;
+        
+            
+//         }else{
+//             alert('Project: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(attend)) {
+//             let mathAttendText = document.getElementById('mathAttend');
+//             mathAttendText.textContent = attend;
+        
+            
+//         }else{
+//             alert('Attendance: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(exam)) {
+//             let mathExamText = document.getElementById('mathExam');
+//             mathExamText.textContent = exam;
+        
+            
+//         }else{
+//             alert('Examination: Enter Number only')
+//         }
+    
+    
+//     }
+//     }
+
+
+
+
+
+
+//     function history(event){
+   
+//         event.preventDefault(); // prevents the form submission and page reload
+          
+        
+//         let quiz = parseFloat(document.getElementById('quizzes').valueAsNumber);
+//         let assign = parseFloat(document.getElementById('assignment').valueAsNumber);
+//         let recite = parseFloat(document.getElementById('recitation').valueAsNumber);
+//         let proj = parseFloat(document.getElementById('project').valueAsNumber);
+//         let attend = parseFloat(document.getElementById('attendance').valueAsNumber);
+//         let exam = parseFloat(document.getElementById('examination').valueAsNumber)
+        
+    
+    
+//         if (!quiz && !assign && !recite && !proj && !proj && !exam){
+//             alert("Enter Grade")
+//         } 
+//         else{
+            
+//             if (!isNaN(quiz)) {
+//                 let historyQuizText = document.getElementById('historyQuiz');
+//                 historyQuizText.textContent = quiz;
+            
+                
+//             }else{
+//                 alert('Quiz: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(assign)) {
+//                 let historyAssignText = document.getElementById('historyAssign');
+//                 historyAssignText.textContent = assign;
+            
+                
+//             }else{
+//                 alert('Assignment: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(recite)) {
+//                 let historyReciteText = document.getElementById('historyRecite');
+//                 historyReciteText.textContent = recite;
+            
+                
+//             }else{
+//                 alert('Recitation: Enter Number only')
+//             }
+            
+//             if (!isNaN(proj)) {
+//                 let historyProjText = document.getElementById('historyProj');
+//                 historyProjText.textContent = proj;
+            
+                
+//             }else{
+//                 alert('Project: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(attend)) {
+//                 let historyAttendText = document.getElementById('historyAttend');
+//                 historyAttendText.textContent = attend;
+            
+                
+//             }else{
+//                 alert('Attendance: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(exam)) {
+//                 let historyExamText = document.getElementById('historyExam');
+//                 historyExamText.textContent = exam;
+            
+                
+//             }else{
+//                 alert('Examination: Enter Number only')
+//             }
+        
+        
+//         }
+//         }
+    
+
+
+
+
+
+// function arts(event){
+   
+//     event.preventDefault(); // prevents the form submission and page reload
+      
+    
+//     let quiz = parseFloat(document.getElementById('quizzes').valueAsNumber);
+//     let assign = parseFloat(document.getElementById('assignment').valueAsNumber);
+//     let recite = parseFloat(document.getElementById('recitation').valueAsNumber);
+//     let proj = parseFloat(document.getElementById('project').valueAsNumber);
+//     let attend = parseFloat(document.getElementById('attendance').valueAsNumber);
+//     let exam = parseFloat(document.getElementById('examination').valueAsNumber)
+    
+
+
+//     if (!quiz && !assign && !recite && !proj && !proj && !exam){
+//         alert("Enter Grade")
+//     } 
+//     else{
+        
+//         if (!isNaN(quiz)) {
+//             let artsQuizText = document.getElementById('artsQuiz');
+//             artsQuizText.textContent = quiz;
+        
+            
+//         }else{
+//             alert('Quiz: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(assign)) {
+//             let artsAssignText = document.getElementById('artsAssign');
+//             artsAssignText.textContent = assign;
+        
+            
+//         }else{
+//             alert('Assignment: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(recite)) {
+//             let artsReciteText = document.getElementById('artsRecite');
+//             artsReciteText.textContent = recite;
+        
+            
+//         }else{
+//             alert('Recitation: Enter Number only')
+//         }
+        
+//         if (!isNaN(proj)) {
+//             let artsProjText = document.getElementById('artsProj');
+//             artsProjText.textContent = proj;
+        
+            
+//         }else{
+//             alert('Project: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(attend)) {
+//             let artsAttendText = document.getElementById('artsAttend');
+//             artsAttendText.textContent = attend;
+        
+            
+//         }else{
+//             alert('Attendance: Enter Number only')
+//         }
+    
+    
+//         if (!isNaN(exam)) {
+//             let artsExamText = document.getElementById('artsExam');
+//             artsExamText.textContent = exam;
+        
+            
+//         }else{
+//             alert('Examination: Enter Number only')
+//         }
+    
+    
+//     }
+//     }
+
+
+//     function music(event){
+   
+//         event.preventDefault(); // prevents the form submission and page reload
+          
+        
+//         let quiz = parseFloat(document.getElementById('quizzes').valueAsNumber);
+//         let assign = parseFloat(document.getElementById('assignment').valueAsNumber);
+//         let recite = parseFloat(document.getElementById('recitation').valueAsNumber);
+//         let proj = parseFloat(document.getElementById('project').valueAsNumber);
+//         let attend = parseFloat(document.getElementById('attendance').valueAsNumber);
+//         let exam = parseFloat(document.getElementById('examination').valueAsNumber)
+        
+    
+    
+//         if (!quiz && !assign && !recite && !proj && !proj && !exam){
+//             alert("Enter Grade")
+//         } 
+//         else{
+            
+//             if (!isNaN(quiz)) {
+//                 let musicQuizText = document.getElementById('musicQuiz');
+//                 musicQuizText.textContent = quiz;
+            
+                
+//             }else{
+//                 alert('Quiz: Enter Number only');            }
+        
+        
+//             if (!isNaN(assign)) {
+//                 let musicAssignText = document.getElementById('musicAssign');
+//                 musicAssignText.textContent = assign;
+            
+                
+//             }else{
+//                 alert('Assignment: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(recite)) {
+//                 let musicReciteText = document.getElementById('musicRecite');
+//                 musicReciteText.textContent = recite;
+            
+                
+//             }else{
+//                 alert('Recitation: Enter Number only')
+//             }
+            
+//             if (!isNaN(proj)) {
+//                 let musicProjText = document.getElementById('musicProj');
+//                 musicProjText.textContent = proj;
+            
+                
+//             }else{
+//                 alert('Project: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(attend)) {
+//                 let musicAttendText = document.getElementById('musicAttend');
+//                 musicAttendText.textContent = attend;
+            
+                
+//             }else{
+//                 alert('Attendance: Enter Number only')
+//             }
+        
+        
+//             if (!isNaN(exam)) {
+//                 let musicExamText = document.getElementById('musicExam');
+//                 musicExamText.textContent = exam;
+            
+                
+//             }else{
+//                 alert('Examination: Enter Number only')
+//             }
+        
+        
+//         }
+//         }
+    
+
+
+// const scienceSubjectGrade = new Grades('Science', 89,78,88,87,89,85);// const mathSubjectGrade = new Grades('Math',79,78,78,77,79,75)
+
+// let scienceGradeAsFloat = parseFloat(scienceSubjectGrade.quarterlyGrade());
+// let mathGradeAsFloat = parseFloat(mathSubjectGrade.quarterlyGrade());
+
+// let subjectScience = scienceSubjectGrade.subject;
+// let subjectMath = mathSubjectGrade.subject;
+
+// quarterGrade(scienceGradeAsFloat, firstQuarter,subjectScience);
+// quarterGrade(mathGradeAsFloat,firstQuarter,subjectMath);
+
+
+// quarterGrade(scienceGradeAsFloat, secondQuarter, subjectScience);
+// quarterGrade(mathGradeAsFloat, secondQuarter, subjectMath)

@@ -1,0 +1,141 @@
+:root{
+    --main_title_color:rgb(254, 255, 255);
+    --title_font_color:  rgb(4, 78, 128);
+    --font_color_hover:  rgb(157, 180, 196);
+    --font_color_active:  rgb(23, 207, 231);
+    --p_font_color: rgb(4, 78, 128);
+    --nav_background_color:  rgb(26, 93, 138);
+    --button_color: rgb(57, 159, 218);
+    --table_head_color:rgb(57, 159, 218);
+    --footer_background_color: rgb(26, 93, 138);
+}
+
+
+
+.main-loginhtml{
+    display: flex;
+    justify-items: center;
+    
+}
+
+
+.loginContainer-loginhtml{
+    width: 25%;
+    justify-self: center;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,50px);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 7px;
+    border-radius: 7px;
+    height: 420px;
+
+    
+   
+}
+
+
+.loginTitle-container p{
+    background-color: var(--nav_background_color);
+    color: rgb(219, 215, 215);
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.loginTitle{
+    color: white;
+    background-color: var(--nav_background_color);
+    padding:15px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+
+
+.loginMain-container{
+    display: block;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+
+.loginMain-container input:not([type="checkbox"]){
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 10px;
+    border: 1px solid rgb(212, 212, 212);
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 30px;
+    
+}
+
+.forget{
+    font-size: 0.7rem;
+    color: var(--p_font_color);
+}
+
+
+.forget:hover{
+    color: var(--font_color_hover);
+}
+.rememberMe-container{
+    
+    
+
+}
+
+.rememberMe-container label{
+    font-size: 0.7rem;
+    color: var(--p_font_color);
+    
+}
+
+
+.rememberMe-container label:hover{
+    color: var(--font_color_hover);
+}
+
+
+.loginButton-container{
+    margin-bottom: 40px;
+}
+
+.loginButton{
+    height: 45px;
+    padding:5px 10px;
+    font-size: 1rem;
+    
+    
+} 
+
+
+.createAccount-container{
+    display: flex;
+    justify-content: center;
+}
+
+.createAccount{
+    font-size: 0.8rem;
+    color: var(--p_font_color);
+}
+
+.createAccount:hover{
+    color: var(--font_color_hover);
+}

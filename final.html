@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grading System</title>
+        <link rel="stylesheet" href="stylesheet/stylesheet.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="main-logo">
+                    <a href="final.html">Basic Grading System</a>
+                </div>
+               
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li><a href="firstquarter.html"  class="nav_line_inactive">1st Quarter</a></li>
+                        <li><a href="secondquarter.html" class="nav_line_inactive">2nd Quarter</a></li>
+                        <li><a href="thirdquarter.html" class="nav_line_inactive">3rd Quarter</a></li>
+                        <li><a href="fourthquarter.html" class="nav_line_inactive">4th Quarter</a></li>
+                        <li><a href="index.html" class="nav_line menu_active">Final Grade</a></li>
+                        
+                    </ul>
+                    
+                </div>
+
+            </nav>
+            <ul class="login-container">
+                        <li><p>Welcome back, <span id="usernameID"></span></p></li>
+                        <li><form action="submit">
+                            <button type="submit" class="logout-btn save-button" id="logoutButton">Logout</button>
+                        </form></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="student-search">
+                <form >
+                    <label for="year_section">Year and Section</label>
+                    <select name="year_section" id="year_section">
+                        <option value="">Select Section</option>
+                        <option value="purple">Purple</option>
+                        <option value="green">Green</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                    <br><br>
+                    <label for="student">Student</label>
+                    <select name="student" id="student">
+                        <option value="">Select Student</option>
+                        <option value="mj">Micheal Jordan</option>
+                        <option value="sc">Stephen Curry</option>
+                        <option value="kb">Kobe Bryant</option>
+                        <option value="lj">Lebron James</option>
+    
+                    </select>
+                    <input type="submit" value="Search" class="student-search-btn save-button">
+                </form>
+            </div>
+            
+            <br>
+
+            <div class="table-container final-grade-container">
+                <h3>Final Grade</h3>
+                <div class="table-grades-container">
+                <table class="table-grades">
+                    
+                    <tr>
+                        <th>Subject</th>
+                        <th>First Quarter (20%)</th>
+                        <th>Second Quarter (20%)</th>
+                        <th>Third Quarter (25%)</th>
+                        <th>Fourth Quarter (35%)</th>
+                        <th>Final Grade</th>
+                        <th>Remarks</th>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td id="firstQuarterScience">00</td>
+                        <td id="secondQuarterScience">00</td>
+                        <td id="thirdQuarterScience">00</td>
+                        <td id="fourthQuarterScience">00</td>
+                        <td id="finalQuarterScience">00</td>
+                        <td id="remarksScience">--</td>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td id="firstQuarterMath">00</td>
+                        <td id="secondQuarterMath">00</td>
+                        <td id="thirdQuarterMath">00</td>
+                        <td id="fourthQuarterMath">00</td>
+                        <td id="finalQuarterMath">00</td>
+                        <td id="remarksMath">--</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td id="firstQuarterHistory">00</td>
+                        <td id="secondQuarterHistory">00</td>
+                        <td id="thirdQuarterHistory">00</td>
+                        <td id="fourthQuarterHistory">00</td>
+                        <td id="finalQuarterHistory">00</td>
+                        <td id="remarksHistory">--</td>
+                    </tr>
+                    <tr>
+                        <td>Arts</td>
+                        <td id="firstQuarterArts">00</td>
+                        <td id="secondQuarterArts">00</td>
+                        <td id="thirdQuarterArts">00</td>
+                        <td id="fourthQuarterArts">00</td>
+                        <td id="finalQuarterArts">00</td>
+                        <td id="remarksArts">--</td>
+                    </tr>
+                    <tr>
+                        <td>Music</td>
+                        <td id="firstQuarterMusic">00</td>
+                        <td id="secondQuarterMusic">00</td>
+                        <td id="thirdQuarterMusic">00</td>
+                        <td id="fourthQuarterMusic">00</td>
+                        <td id="finalQuarterMusic">00</td>
+                        <td id="remarksMusic">--</td>
+                    </tr>
+                </table>
+
+                <input type="button" id="clearFinalTable" value="Clear Table" class="clearFinalTable save-button">
+
+            </div>
+        </div>
+        </main>
+
+        <footer>
+            <p>Copyright &copy Bumanlag <script>document.write(new Date().getFullYear())</script></p>
+        </footer>
+        
+        
+    </body>
+    <script src="script/script.js"></script>
+</html>

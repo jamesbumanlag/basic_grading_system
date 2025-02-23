@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grading System</title>
+        <link rel="stylesheet" href="stylesheet/stylesheet.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="main-logo">
+                    <a href="final.html">Basic Grading System</a>
+                </div>
+               
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li><a href="firstquarter.html"  class="nav_line_inactive">1st Quarter</a></li>
+                        <li><a href="secondquarter.html" class="nav_line_inactive">2nd Quarter</a></li>
+                        <li><a href="thirdquarter.html" class="nav_line menu_active">3rd Quarter</a></li>
+                        <li><a href="fourthquarter.html" class="nav_line_inactive">4th Quarter</a></li>
+                        <li><a href="final.html" class="nav_line_inactive">Final Grade</a></li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+
+            </nav>
+            <ul class="login-container">
+                <li><p>Welcome back, <span id="usernameID"></span></p></li>
+                        <li><form action="submit">
+                            <button type="submit" class="logout-btn save-button" id="logoutButton">Logout</button>
+                        </form></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="student-search">
+                <form >
+                    <label for="year_section">Year and Section</label>
+                    <select name="year_section" id="year_section">
+                        <option value="">Select Section</option>
+                        <option value="purple">Purple</option>
+                        <option value="green">Green</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                    <br><br>
+                    <label for="student">Student</label>
+                    <select name="student" id="student">
+                        <option value="">Select Student</option>
+                        <option value="mj">Micheal Jordan</option>
+                        <option value="sc">Stephen Curry</option>
+                        <option value="kb">Kobe Bryant</option>
+                        <option value="lj">Lebron James</option>
+    
+                    </select>
+                    <input type="submit" value="Search" class="student-search-btn save-button">
+                </form>
+           
+            </div>
+            <br>
+
+            <div class="content-container" >
+
+                <div class="table-container">
+                    <h3>Third Quarter Grade</h3>
+
+                    <div class="table-grades-container">
+                        <table class="table-grades">
+                            
+                            <tr>
+                                <th>Subject</th>
+                                <th>Quizzes (10%)</th>
+                                <th>Assignment (10%)</th>
+                                <th>Recitation (15%)</th>
+                                <th>Project (15%)</th>
+                                <th>Attendance (15%) </th>
+                                <th>Exam (40%)</th>
+                            </tr>
+                            <tr>
+                                <td>Science</td>
+                                <td><p id="scienceQuiz" >--</p></td>
+                                <td><p id="scienceAssign">--</p></td>
+                                <td><p id="scienceRecite">--</p></td>
+                                <td><p id="scienceProj">--</p></td>
+                                <td><p id="scienceAttend">--</p></td>
+                                <td><p id="scienceExam">--</p></td>
+                            </tr>
+                            <tr>
+                                <td>Math</td>
+                                <td><p id="mathQuiz">--</p></td>
+                                <td><p id="mathAssign">--</p></td>
+                                <td><p id="mathRecite">--</p></td>
+                                <td><p id="mathProj">--</p></td>
+                                <td><p id="mathAttend">--</p></td>
+                                <td><p id="mathExam">--</p></td>
+                            </tr>
+                            <tr>
+                                <td>History</td>
+                                <td><p id="historyQuiz">--</p></td>
+                                <td><p id="historyAssign">--</p></td>
+                                <td><p id="historyRecite">--</p></td>
+                                <td><p id="historyProj">--</p></td>
+                                <td><p id="historyAttend">--</p></td>
+                                <td><p id="historyExam">--</p></td>
+                            </tr>
+                            <tr>
+                                <td>Arts</td>
+                                <td><p id="artsQuiz">--</p></td>
+                                <td><p id="artsAssign">--</p></td>
+                                <td><p id="artsRecite">--</p></td>
+                                <td><p id="artsProj">--</p></td>
+                                <td><p id="artsAttend">--</p></td>
+                                <td><p id="artsExam">--</p></td>
+                            </tr>
+                            <tr>
+                                <td>Music</td>
+                                <td><p id="musicQuiz">--</p></td>
+                                <td><p id="musicAssign">--</p></td>
+                                <td><p id="musicRecite">--</p></td>
+                                <td><p id="musicProj">--</p></td>
+                                <td><p id="musicAttend">--</p></td>
+                                <td><p id="musicExam">--</p></td>
+                            </tr>
+                        </table>
+
+                    </div> <!-- end of table grades container -->  
+
+                 </div> <!-- end of table container -->
+
+                 <div class="grade-input-container">
+                    <h3>Grade Input</h3>
+                    <form>
+                        <ul>
+                            <li>
+                                <label for="subject">Subject</label>
+                                <select name="subject" id="subject" class="input-max-width">
+                                    <option value="">Select Subject</option>
+                                    <option value="scienceSubject">Science</option>
+                                    <option value="mathSubject">Math</option>
+                                    <option value="historySubject">History</option>
+                                    <option value="artsSubject">Arts</option>
+                                    <option value="musicSubject">Music</option>
+                                </select>
+                            </li>
+
+                            <li>
+                                <label for="quizzes">Quizzes</label>
+                                <input type="number" name="quizzes" id="quizzes" max="100" min="65" class="input-max-width">
+                            </li>
+
+                            <li>
+                                <label for="assignment">Assignment</label>
+                                <input type="number" name="assignment" id="assignment" max="100" min="65" class="input-max-width">
+                            </li>
+
+                            <li>
+                                <label for="recitation">Recitation</label>
+                                <input type="number" name="recitation" id="recitation" max="100" min="65" class="input-max-width">
+                            </li>
+
+                            <li>
+                                <label for="project">Project</label>
+                                <input type="number" name="project" id="project" max="100" min="65" class="input-max-width">
+                            </li>
+
+                            <li>
+                                <label for="attendance">Attendance</label>
+                                <input type="number" name="attendance" id="attendance" max="100" min="65" class="input-max-width">
+                            </li>
+                            
+                            <li>
+                                <label for="examination">Exam</label>
+                                <input type="number" name="examination" id="examination" max="100" min="65" class="input-max-width">
+                            </li>
+                            
+                            <li><button id="submitFirst" type="submit" class="save-button input-max-width">Submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                 </div>  <!-- end of grade input container -->
+
+            </div>  <!-- end of content container -->
+
+        </main>
+        <footer>
+            <p>Copyright &copy Bumanlag <script>document.write(new Date().getFullYear())</script></p>
+        </footer>
+
+        
+        
+    </body>
+    <script src="script/script3.js"></script>
+</html>
